@@ -40,3 +40,18 @@ out/
 ### System directories ###
 .Trash/
 Documents/
+
+# 시스템 파일 무시
+.DS_Store
+.bash_history
+.bash_sessions
+.cache
+.config
+.gradle
+.m2
+.vscode
+.zsh_history
+.zshrc
+
+# 사용자의 홈 디렉터리 무시
+../../../*
